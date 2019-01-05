@@ -1,0 +1,21 @@
+<my-nav></my-nav>
+<mat-tab-group [style.margin-left.px] = "isHandset ? 0 : 200">
+  <mat-tab style="font-size: xx-large;" label="Add Customer">
+    <app-add-customer></app-add-customer>
+  </mat-tab>
+  <mat-tab label="Update Customer">
+    <app-update-customer></app-update-customer>
+  </mat-tab>
+  <mat-tab label="View Customers">
+    <app-view-customer></app-view-customer>
+  </mat-tab>
+  <mat-tab label="Delete Customer">
+    <app-delete-customer></app-delete-customer>
+  </mat-tab>
+  <mat-tab label="Dashboard">
+    <my-dashboard></my-dashboard>
+  </mat-tab>
+  <mat-tab label="Table">
+    <my-table></my-table>
+  </mat-tab>  
+</mat-tab-group>
